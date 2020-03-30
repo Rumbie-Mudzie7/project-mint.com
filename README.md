@@ -3,6 +3,9 @@ This is a clone of the sign up page for mint.com. This project is meant to equip
 
 ![screenshot](./img/Screenshot1.png)
 
+# Live demo 
+[Live demo](https://raw.githack.com/Rumbie-Mudzie7/project-mint.com/feature-branch/index.html)
+
 ## Built With
 
 - HTML
