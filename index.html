@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mint.com</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="reset.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="sign-in">
+      <div>
+        <p>Already have an Intuit account?</p>
+        <a href="#">I forgot my User ID or password</a>
+      </div>
+      <button><i class="fas fa-lock"></i> Sign In</button>
+    </nav>
+    <main>
+      <div class="intuit-logos">
+        <img
+          id="intuit-logo"
+          alt="intuit-logo"
+          src="https://logos-download.com/wp-content/uploads/2016/05/Intuit_logo_logotype.png"
+        />
+        <ol>
+          <li>
+            <img 
+              class="m-q-t external-link"
+              src="https://pbs.twimg.com/profile_images/1034140288963338241/_B58ZH7d.jpg"
+              alt="mint-logo"
+            />
+          </li>
+          <li><p class="m-q-t-text external-link">mint</p></li>
+          <li>
+            <img
+              class="m-q-t external-link"
+              src="https://cdn.clipart.email/f06854120ba5c7cb0e502149760d1007_quickbooks-logo-png-1-png-image_512-513.png"
+              alt="quickbooks-logo"
+            />
+          </li>
+          <li><p class="m-q-t-text external-link">quickbooks</p></li>
+          <li>
+            <img
+              class="m-q-t external-link"
+              src="https://www.complaintsboard.com/img/business/121974/900x900/turbotax.jpg"
+              alt="turbotax-logo"
+            />
+          </li>
+          <li><p class="m-q-t-text external-link">turbotax</p></li>
+        </ol>
+      </div>
+
+      <section class="form-div">
+        <div class="form-header">
+          <h2>Create an Intuit account</h2>
+          <p>One account for everthing Intuit, including mint</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="form-container">
+          <form action="#" method="POST">
+            <fieldset>
+              <label for="Email-address">Email address</label><br />
+              <input type="email" name="Email-address" id="Email-address" />
+            </fieldset>
+            <fieldset>
+              <label for="phone-number">Phone (recommended)</label><br />
+              <input type="number" name="phone-number" id="phone-number" />
+              <span id="note"
+                >Standard call, messaging or data rates may apply.
+              </span>
+            </fieldset>
+            <fieldset class="password-control">
+              <label for="password">Password</label><br />
+              <input type="password" name="password" id="password" />
+              <i id="lock-icon" class="fas fa-lock-open"></i>
+            </fieldset>
+            <button id="submit-button">
+              <i class="fas fa-lock"></i> Create Account
+            </button>
+          </form>
+        </div>
+        <p id="bottom-text">
+          By clicking Create account, you agree to our <a href="#">Terms</a> and
+          have read and acknowledge our <a href="#">Privacy Statement</a>.
+        </p>
+        <div class="form-footer">
+          <p>
+            Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and
+            <a href="#"> Terms of Use</a>.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <ol>
+        <li><a href="#">Legal</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Security</a></li>
+      </ol>
+      <p id="footer-rights">
+        © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+        TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+      </p>
+      <p>
+        Terms and conditions, features, support, pricing, and service options
+        subject to change without notice.
+      </p>
+    </footer>
+  </body>
+</html>
