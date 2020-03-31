@@ -103,7 +103,7 @@ body {
 }
 
 .external-link {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .form-div {
@@ -162,7 +162,7 @@ fieldset {
 }
 
 #bottom-text {
-     font-style: italic;
+  font-style: italic;
 }
 
 #note {
@@ -203,7 +203,7 @@ fieldset {
 }
 
 #footer-rights{
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 .password-control {
